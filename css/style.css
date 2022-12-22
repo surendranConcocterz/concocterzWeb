@@ -1,0 +1,30 @@
+body {
+  margin-top: 95px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: linear-gradient(90deg, rgb(113 197 174) 0%, rgb(161 90 191) 100%);
+}
+.nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+#websiteDesign {
+  position: relative;
+  background: url("../img/website.jpg");
+  min-height: 20rem;
+  width: 20rem;
+}
+#mobileApp {
+  position: relative;
+  background: url("../img/mobileapp.jpg");
+  min-height: 20rem;
+  width: 20rem;
+}
