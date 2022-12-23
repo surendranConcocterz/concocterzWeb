@@ -14,115 +14,285 @@
     <title>ConcocterZ</title>
   </head>
   <body>
-    <nav
-      id="navbar-example2"
-      class="navbar navbar-expand-md navbar-light fixed-top"
-    >
-      <div class="container">
-        <a>
-          <img src="img/logo.jpg" style="height: 75px; width: 75px" />
-        </a>
-        <nav id="navbar-example2" class="navbar px-3">
-          <ul class="nav nav-pills navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading1">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading2">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading3">Careers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading4">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading5">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
+    <div>
+      <div class="container-fluid mainNav fixed-top">
+        <div class="row">
+          <div class="col-3 mt-1 text-center">
+            <a>
+              <img src="img/logo.jpg" style="height: 75px; width: 75px" />
+            </a>
+          </div>
+          <div
+            class="col-9 navbar navbar-expand-lg navbar-light justify-content-end"
+          >
+            <nav id="navbar-example2">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="navbar px-3 collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="nav nav-pills navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Careers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading5">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-example2"
-      data-bs-offset="0"
-      class="scrollspy-example"
-      tabindex="0"
-    >
-      <!-- section1 -->
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-example2"
+        data-bs-offset="0"
+        class="scrollspy-example"
+        tabindex="0"
+      >
+        <!-- section1 -->
 
-      <section id="scrollspyHeading1">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 text-center">
-              <h1 class="display-1 mt-5 pt-5">Welcome to the Team!</h1>
-              <p>
-                “You Will Never Know Your Limits Until You Push Yourself to
-                Them.”
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <img
-                src="img/coverImage.jpg"
-                style="height: 40rem; width: 90rem"
-                alt="coverimage"
-                class="img-fluid d-none d-lg-block"
-              />
+        <section id="scrollspyHeading1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 text-center">
+                <h1 class="display-1 my-5 pt-5">Welcome to the Team!</h1>
+                <p>
+                  “You Will Never Know Your Limits Until You Push Yourself to
+                  Them.”
+                </p>
+              </div>
+              <div class="col-lg-6 my-5">
+                <img
+                  src="img/coverImage.jpg"
+                  style="height: 40rem; width: 90rem"
+                  alt="coverimage"
+                  class="img-fluid d-none d-lg-block"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- section2 -->
-      <section id="scrollspyHeading2">
-        <div class="container">
-          <div class="row">
+        </section>
+        <!-- section2 -->
+        <section id="scrollspyHeading2">
+          <div class="container">
+            <div class="alert alert-info row">
+              <div class="col-lg-12 text-center">
+                <h1 class="display-3 mt-5 pt-1">Our Services</h1>
+              </div>
+              <div class="col-lg-4">
+                <a class="nav-link" href="#"
+                  ><img
+                    src="img/website.jpg"
+                    style="height: 20rem; width: 90rem"
+                    alt="coverimage0"
+                    class="img-fluid rounded mx-auto d-block"
+                  />
+                  <h4>Website Design</h4>
+                </a>
+              </div>
+              <div class="col-lg-4">
+                <a class="nav-link" href="#">
+                  <img
+                    src="img/mobileapp.jpg"
+                    style="height: 20rem; width: 90rem"
+                    alt="coverimage1"
+                    class="img-fluid rounded mx-auto d-block"
+                  />
+                  <h4>Mobile application Development</h4></a
+                >
+              </div>
+              <div class="col-lg-4">
+                <a class="nav-link" href="#">
+                  <img
+                    src="img/ecommerce.jpg"
+                    style="height: 20rem; width: 90rem"
+                    alt="coverimage2"
+                    class="img-fluid rounded mx-auto d-block"
+                  />
+                  <h4>Ecommerce Development</h4></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section3 -->
+        <section id="scrollspyHeading3">
+          <div class="container">
+            <div class="alert alert-primary row">
+              <div class="col-lg-12 text-center">
+                <h1 class="display-3 mt-5 pt-1">Careers</h1>
+              </div>
+              <div class="col-lg-12">
+                <h5 class="card text-center mt-5 pt-1">
+                  Please send us Profile to infoconcocterz@gmail.com We will
+                  revert back soon.
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section4 -->
+        <section id="scrollspyHeading4">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="display-3 mt-5 pt-1">About US</p>
+                <div class="under"></div>
+                <div class="container my-3">
+                  <p class="h5">
+                    Trusted Technology partners We are a group of passionate
+                    professionals working together.
+                  </p>
+                </div>
+
+                <p class="h6">Our Core Values</p>
+                <div class="container">
+                  <ul>
+                    <li>Honesty and Integrity</li>
+                    <li>Continuous Improvement</li>
+                    <li>Customer focus</li>
+                    <li>Respect everyone (colleagues/associates/customers)</li>
+                  </ul>
+                </div>
+                <p class="h6">
+                  we believe that the right understanding and technological edge
+                  will help us deliver the best results for our customers.
+                </p>
+              </div>
+
+              <div class="col-lg-6 my-5">
+                <img
+                  src="img/teamwork-3213924_640.jpg"
+                  class="rounded mx-auto d-block"
+                  style="height: 100%; width: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section4 -->
+        <section id="scrollspyHeading5">
+          <div class="alert alert-dark container">
             <div class="col-lg-12 text-center">
-              <h1 class="display-3 mt-5 pt-1">Our Services</h1>
+              <h1 class="display-3 my-5">Get in Touch</h1>
             </div>
-            <div class="col-lg-4">
-              <img
-                src="img/website.jpg"
-                style="height: 20rem; width: 90rem"
-                alt="coverimage"
-                class="img-fluid d-none d-lg-block"
-              />
-            </div>
-            <div class="col-lg-4">
-              <img
-                src="img/mobileapp.jpg"
-                style="height: 20rem; width: 90rem"
-                alt="coverimage"
-                class="img-fluid d-none d-lg-block"
-              />
-            </div>
-            <div class="col-lg-4">
-              <img
-                src="img/ecommerce.jpg"
-                style="height: 20rem; width: 90rem"
-                alt="coverimage"
-                class="img-fluid d-none d-lg-block"
-              />
+            <div class="row">
+              <div class="col-lg-6">
+                <img
+                  src="img/ContactImg.jpg"
+                  class="rounded mx-auto d-block"
+                  style="height: 100%; width: 100%"
+                />
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Full Name</label
+                  >
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Mobile Number</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile Number"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Request for Service</label
+                  ><select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Request Service</option>
+                    <option value="Website Development">
+                      Website Development
+                    </option>
+                    <option value="Mobile App Development">
+                      Mobile App Development
+                    </option>
+                    <option value="Ecommerce Service">Ecommerce Service</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Example textarea</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div class="container-fluid companyAddress">
+            <div>
+              <h3>Concocterz Software Solutions Pvt. Ltd.</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>
+                    Registered Office:Plot no x,xxx Main Road,Chennai - 600000
+                  </h5>
+                </div>
+                <div class="col-md-6">
+                  <h4>Contact No: xxxxxxxxxxxxx</h4>
+                  <h4>Email: xxxxxxxxxxxxx</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    <!-- <div
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-example2"
-      data-bs-offset="0"
-      class="scrollspy-example"
-      tabindex="0"
-    >
-      <h4 id="scrollspyHeading2">Second heading</h4>
-      <p>...</p>
-      <h4 id="scrollspyHeading3">Third heading</h4>
-      <p>...</p>
-      <h4 id="scrollspyHeading4">Fourth heading</h4>
-      <p>...</p>
-      <h4 id="scrollspyHeading5">Fifth heading</h4>
-      <p>...</p>
-    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
